@@ -1,10 +1,16 @@
 main(){
  int firstNum = 10;
  double secondNum =3.1416;
- double result =firstNum.toDouble() + secondNum ;
+ int result =firstNum + secondNum.toInt() ;
+ double resultTwo =firstNum.toDouble() + secondNum ;
+ print(result);
+ print(resultTwo.toStringAsFixed(2));
+ print(resultTwo.runtimeType);
+ String name = resultTwo.toString();
+ print(name);
+ double resultThree = 12.56 + double.parse(name) ;
+ print(resultThree);
+ int a = int.tryParse('120h')?? 5;
+ print(a+20);
 
- int resultTwo =firstNum + secondNum.toInt() ;
-
- print(resultTwo);
- print(result.toStringAsFixed(2));
 }
