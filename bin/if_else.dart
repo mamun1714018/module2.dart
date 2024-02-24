@@ -9,13 +9,22 @@ main (){
     print('hete bajare jbo');
   }
   //nahole hete jbo
-  double taka = 50.25;
-  if(taka>=50)
+  int taka = 50;
+  if(taka>100)
     {
       print('Pizza');
     }
+  else if(taka>=50)
+  {
+    print('Barger');
+  }
+  else if(taka>=30)
+  {
+    print('coke');
+  }
   else {
     print('Banana');
   }
+
 
 }
